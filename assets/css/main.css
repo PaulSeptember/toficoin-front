@@ -1,0 +1,281 @@
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+header { 
+    display: flex;
+}
+
+html {
+    height : 100%;
+}
+body {
+    height : 100%;
+}
+
+
+header {
+    background-color : #161a1d;
+    min-height : 5%;
+}
+
+#header_text{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    color: #dbdcde;
+    font-size: 24px ;
+}
+
+#field_div{
+    width: 100%;
+}
+
+#logo_outter_div{
+    display: flex;
+    height: 50%;
+}
+
+#logo_inner_div{
+    margin: auto;
+    text-align: center;
+}
+
+#tfc_balance_div{
+    margin-top: 10px;
+    
+}
+#usd_balance_div{
+    margin-top: 5px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+#coin_img{
+    height:125px;
+    width:125px;
+}
+
+#balance_usd{
+    font-size: 24px;
+    color: #dbdcde;
+    margin-bottom : 10px;
+    
+}
+
+#balance_usd_code{
+    margin-top : 2px;
+    font-size: 20px;
+    color: #797e82;
+   
+}
+
+#balance_delta{
+    font-size: 10px;
+    margin-left: 10px;
+    color: #797e82;
+}
+
+#balance_tfc{
+    font-size: 36px;
+    color: #f49f3a;
+}
+
+#balance_tfc_code{
+    font-size: 16px;
+    color: #f49c3a;
+}
+
+.main_div {
+    background-color : #292e34;
+    display: flex;
+    justify-content: space-between;
+    height : 95%;
+}
+
+.sidebar{
+    background-color: #292e34;
+    width: 20%;
+    border-style: none none none solid;
+    border-color: #f49c3a;
+}
+
+.sidebar_element{
+    width : 100%;
+    list-style-type: none;
+}
+
+.sidebar_text{
+    padding-top: 20px;
+    padding-bottom : 20px;
+    padding-left : 10%;
+    width : 100%;
+    display: inline-block;
+    border-style: none none none solid;
+    border-color: #292e34;
+    text-decoration: none;
+    font-size : 24px;
+    background-color: #292e34;
+    color: #dbdcde;
+    transition-duration: 0.25s;
+}
+.sidebar_text:hover, .sidebar_text:active {
+    color: #f49c3a;
+    border-style: none none none solid;
+    border-color: #f49c3a;
+    background-color: #24292d;
+    transition: all 0.25s;
+}
+
+.chart {
+    background-color: #292e34;
+    height : 50%;
+    
+}
+
+#send_div{
+    background-color : #292e34;;
+    
+    width: 50%;
+}
+
+#receive_div{
+    background-color : #292e34;
+    width: 50%;
+}
+
+.input_send{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #dbdcde;
+    background-color: #161a1d;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.input_send:hover, .input_send:active{
+    background-color: #111619;
+    transition: all 0.125s;
+   
+}
+
+#send_label{
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #dbdcde;
+}
+
+#aprox_label{
+     display: flex;
+    width: 80%;
+     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+     font-size: 20px;
+    color: #dbdcde;
+}
+
+#qr_img_div{
+    width: 30%;
+}
+
+#qr_div{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#qr_img{
+    padding: 5px;
+    background-color: #dbdcde;
+    width: 100%;
+}
+
+#your_qr_label{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8%;
+    font-size: 24px;
+    color: #dbdcde;
+}
+
+#history_label{
+    font-size: 24px;
+    color: #dbdcde;
+    margin-top : 10px;
+    margin-left : 10px;
+    margin-bottom: 20px;
+}
+
+.history_div{
+    
+    margin-top : 10px;
+    width: 100%;
+    padding-left : 4%;
+    padding-right : 40px;
+}
+
+.history_element{
+    display: flex;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    background-color: #161a1d;
+    margin: 6px 12px;
+    border-width : 2px;
+    text-decoration: none;
+    width: 90%;
+    list-style-type: none;
+}
+
+.history_text{
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #dbdcde;
+}
+
+.history_bar{
+    margin-top: 20px;
+}
+
+#root {
+    padding: 3rem;
+    text-align: center
+}
+
+#root{
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+}
+
+#root canvas {
+    display: block;
+    margin: 0 auto;
+}
